@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "Norse Bold";
+	src: url("fonts/Norse-Bold.otf") format("opentype");
+}
+
+body {
+    font-family: Arial, Verdana, Helvetica,sans-serif;
+}
+
+.layout {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+}
+
+.odin {
+    position: absolute;
+    padding: 150px 100px;
+}
+
+
+
+.logo p {
+    float: right;
+    font-family: "Norse Bold";
+}
+
+.background {
+    width: 100%;
+    height: auto;
+}
+
+.odin-logo {
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+}
